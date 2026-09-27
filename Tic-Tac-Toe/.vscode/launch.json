@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Tic-Tac-Toe",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/TicTacToe.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Users/shish/OneDrive/Desktop/mingw142/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build TicTacToe",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/Users/shish/Downloads/SFML-3.1.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.1.0/bin;C:/Users/shish/OneDrive/Desktop/mingw142/mingw64/bin;${env:PATH}"
+                }
+            ]
+        }
+    ]
+}
